@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Web Programming - Programming languages</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Web Programming</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="post.html">Post</a>
+          </li>
+          -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Introductions to Python Programming Language.</h1>
+            <h2 class="subheading">You don't need to know EVERYTHING of Python. Let's learn just small parts of it. It will be ENOUGH!</h2>
+            <p class="post-meta">Posted by
+              <a href="#">Keechul Jung</a>
+              on March 1, 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+          <h2 class="section-heading">What you will learn in Python</h2>
+          <p>
+            <ul>
+              <li>programming environment: web compiler</li>
+                <ol>
+                  <li>우리는 지금부터 구글(Google)이 제공하는 Colab이라는 환경을 사용할 것이다. Colab은 주피터 노트북(Jupyter Notebook)이라는 파이썬 개발 환경인데, 별도로 설치할 필요가 없어 편하다.
+                    아래의 사이트에 접속하자. 구글 ID로 로그인할 수 있다.
+                    <a href="https://colab.research.google.com/"> [Google Colab]</a>
+                  </li>
+                  <li>왼쪽 상단의 메뉴에서 [File]—[New Python 3 Notebook]을 클릭해서 새로운 파일을 생성하자. 파이썬 언어도 버전을 업그레이드하고 있는데 ‘Python 3’버전을 사용하려는 것이다. Colab에서는 Notebook이라는 단위가 파일이라고 생각하면 된다. 이렇게 생성된 파일은 본인의 Google 계정의 구글 드라이브 폴더에 저장된다(<a href="https://drive.google.com">[Google Drive]</a>).
+                  </li>
+                  <li>화면의 작은 박스를 셀(cell)이라고 하는데 셀 단위로 프로그램하고, 셀 단위로 프로그램을 실행할 수 있다</li>
+                    <ul>
+                      <li>(실행 방법: 1)셀의 좌측의 실행 버튼 클릭 또는</li>
+                      <li>(실행 방법: 2) Control+Enter키. </li>
+                    </ul>
+                  <li><a href="https://colab.research.google.com/drive/1Ay9QZ4B1YtkgApqXOY_pF0ncL0CF7cL_"> [샘플 사이트]</a>를 접속해보자. 이 페이지는 저자가 만들어 둔 페이지라서 실행하려면 fork 해서 사용해야한다.</li>
+                  <li>코드 파일을 실행해보고, [File]—[Save] 메뉴에서 저장하면, https://drive.google.com 사이트에 [Colab Noteboos]라는 폴더 내부에 파일이 저장된다. 각자 확인해보자.</li>
+                </ol>
+
+              <li>output function: print()</li>
+              <a href="https://colab.research.google.com/drive/1Ay9QZ4B1YtkgApqXOY_pF0ncL0CF7cL_"> [Google Colab]</a>
+
+              <li>variables</li>
+              <a href="https://colab.research.google.com/drive/1RXKq-Cj91CR2RcXxqk0vSWVDELFZO8a9"> [Google Colab]</a>
+
+              <li>input function: input()</li>
+              <a href="https://colab.research.google.com/drive/1jnG50FLiS26ubFOBoEZfph74RjJLOBEA"> [Google Colab]</a>
+
+              <li>operators</li>
+              <a href="https://colab.research.google.com/drive/1sf_T-xkKxQtWC1-xImPylRZGTEggMh5z"> [Google Colab]</a>
+
+              <li>Python coding conventions: PEP/8</li>
+              <a href="https://www.python.org/dev/peps/pep-0008/"> [Python coding convention]</a>
+              <a href="-	https://wayhome25.github.io/python/2017/05/04/pep8/"> [Python coding convention]</a>
+
+              <li>How to Debug</li>
+
+             </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
